@@ -1,7 +1,7 @@
 # report-templates
 En este repositorio se encuentran templates de LaTeX para reportes de laboratorio. Así mismo se encuentra un graficador en una notebook de python.
 
-Para usar estos templates basta con clonar el repositorio y quedarse con la carpeta 'aps' o la 'std', dependiendo del resultado deseado. Dentro de las dos están los documentos y carpetas necesarias.
+Para usar estos templates basta con clonar el repositorio y quedarse con la carpeta 'aps' o la 'std', dependiendo del resultado deseado. Dentro de las dos están los documentos y carpetas necesarias. El template 'aps' está inspirado en el formato que piden para publicar en diversas revistas científicas cono el Physical Review; mientas que el template 'std' es más como un reporte de laboratorio casual.
 
 Se ha elegido separar cada sección en un documento separado que está en una carpeta correspondiente para que sea más fácil leer el código fuente y encontrar más rápido posibles errores. Estas secciones pueden ser fácilmente modificadas según las necesidades del usuario. 
 
@@ -18,3 +18,5 @@ En ese sentido también se agrega una notebook en python para graficar. En este 
 - Con 'plt.tick_params' se cambia el tamaño de la fuente de los ejes.
 
 En dado caso de necesitar hacer un ajuste con python mismo se puede revisar la documentación necesaria. Así mismo se puede modificar esta notebook para las necesidades de cada usuario y cada experimento.
+
+Finalmente es muy recomendable guardar los datos y mediciones tomadas para realizar el reporte en la carpeta 'Datos', puesto que en el futuro podrían ser necesarios ya sea para verificar la autoría o fiabilidad del texto, o para hacer un análisis más profundo al que se realizó originalmente. Pero si se usa alguno de estos templates para un artículo científico se recomienda borrar esta carpeta al subir el proyecto fuente a arXiv.
