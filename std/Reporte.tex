@@ -1,0 +1,149 @@
+%------------------------------------------------------------
+%	PREÁMBULO
+%------------------------------------------------------------
+\documentclass[11pt, twocolumn]{article} 
+
+\usepackage{graphics,graphicx}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{fancyhdr}
+\usepackage{enumerate}
+\usepackage[spanish,es-nodecimaldot,es-tabla]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[title]{appendix}
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+\usepackage{braket}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{afterpage}
+\usepackage{titling} 
+\usepackage{float}
+\usepackage{lscape}
+\usepackage{selinput}
+\usepackage{booktabs} 
+\usepackage{lettrine}
+\usepackage{color}
+\usepackage{cancel}
+\usepackage{tikz}
+\usepackage{lipsum}
+
+\usepackage{amsfonts} 
+\usepackage[centertags]{amsmath}
+\usepackage{stmaryrd,amssymb,amsthm}
+\usepackage{wasysym,mathrsfs}
+
+\usepackage[font=footnotesize,labelfont=small]{caption}
+\captionsetup{width=0.85\linewidth}
+
+\RequirePackage{geometry}
+\geometry{margin=1.5cm}
+
+\usepackage{parskip}
+\setlength{\parskip}{0.2cm}
+\setlength{\parindent}{0pt}
+
+\usepackage[square,numbers,sort]{natbib}
+\bibliographystyle{unsrt}
+
+\selectlanguage{spanish}
+
+%------------------------------------------------------------
+%	DEFINICIONES
+%------------------------------------------------------------
+\def\path{Images/}
+
+\newcommand{\sol}{
+	\begin{flushleft}
+		$ \mathbb{S}ol. $
+\end{flushleft}}
+
+
+%------------------------------------------------------------
+%	CARÁTULA
+%------------------------------------------------------------
+\author{Fulano}
+\title{Reporte}
+\date{}
+
+\begin{document} 
+	
+\twocolumn[\begin{@twocolumnfalse}
+		
+\begin{center}
+
+	{\Large Título del experimento} \vspace{5pt}
+		
+	Fulanito \textsc{de Tal}\footnotemark \\
+	Facultad de Ciencias, \textsl{UNAM} \\
+	Laboratorio de Física Contemporánea I: Proyecto Nº 1 \\
+	Profesores: Dr. Perengano de Tal \& Ayudante Perenganito \vspace{5pt} 
+
+	Diciembre, 2024
+			
+\end{center}
+
+
+%------------------------------------------------------------
+%	ABSTRACT
+%------------------------------------------------------------
+
+\rule{\textwidth}{1pt}
+
+\begin{abstract}
+	En el resumen se evalúa la capacidad de síntesis del estudiante. Es importante que en muy pocas palabras redacte el por qué es importante el experimento, lo que realizó, los resultados y comentarios pertinentes, como una justificación de las fallas cometidas en la experimentación. Se debe escribir en pasado perfecto.
+\end{abstract}
+
+\rule{\textwidth}{1pt}
+
+\vspace{20pt}
+
+\end{@twocolumnfalse}]
+
+\footnotetext{\url{correo_de_fulanito@ciencias.unam.mx}}
+
+
+%------------------------------------------------------------
+%	INTRODUCCIÓN
+%------------------------------------------------------------
+\input{./Sec1/Sec1.tex}
+
+
+%------------------------------------------------------------
+%	DESARROLLO
+%------------------------------------------------------------
+\input{./Sec2/Sec2.tex}
+
+
+%------------------------------------------------------------
+%	RESULTADOS
+%------------------------------------------------------------
+\input{./Sec3/Sec3.tex}
+
+
+%------------------------------------------------------------
+%	ANÁLISIS Y DISCUSIÓN
+%------------------------------------------------------------
+\input{./Sec4/Sec4.tex}
+
+
+%------------------------------------------------------------
+%	CONCLUSIONES
+%------------------------------------------------------------
+\input{./Sec5/Sec5.tex}
+
+
+%------------------------------------------------------------
+%	APÉNDICES
+%------------------------------------------------------------
+\appendix
+\input{./Ap1/Ap1.tex}
+
+
+%------------------------------------------------------------
+%	BIBLIOGRAFÍA
+%------------------------------------------------------------
+\bibliography{./Bibliography/bibliography.bib}
+
+
+\end{document}

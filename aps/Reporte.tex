@@ -1,0 +1,110 @@
+%------------------------------------------------------------
+%	PREÁMBULO
+%------------------------------------------------------------
+\documentclass[aps, prd, twocolumn, nofootinbib]{revtex4-1}
+
+\usepackage[spanish,es-nodecimaldot,es-tabla]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[title]{appendix}
+\usepackage{graphics,graphicx}
+\usepackage{comment}
+\usepackage{tensor}
+\usepackage{lipsum}
+\usepackage{float}
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+\usepackage{slashed}
+\usepackage{color}
+\setcitestyle{square, sort, comma, numbers, super}
+
+\usepackage{amsfonts} 
+\usepackage[centertags]{amsmath}
+\usepackage{stmaryrd,amssymb,amsthm}
+\usepackage{wasysym,mathrsfs}
+
+\usepackage{caption}
+\captionsetup{font=footnotesize,labelfont=small,width=0.75\linewidth}
+
+\RequirePackage{geometry}
+\geometry{margin=1.5cm}
+
+\usepackage{parskip}
+\setlength{\parskip}{0.2cm}
+\setlength{\parindent}{0pt}
+
+\selectlanguage{spanish}
+
+\pagestyle{plain}
+\pagenumbering{arabic}
+
+%------------------------------------------------------------
+%	DEFINICIONES
+%------------------------------------------------------------
+\def\path{Images/}
+
+
+\begin{document}
+
+%------------------------------------------------------------
+%	CABEZAL
+%------------------------------------------------------------
+\title{Título del experimento}
+
+\author{Fulanito de Tal}
+\email{fulanito@ciencias.unam.mx}
+
+\affiliation{Laboratorio de Física, Facultad de Ciencias, UNAM.}
+
+\date{Diciembre, 2024}
+
+\begin{abstract}
+\noindent En el resumen se evalúa la capacidad de síntesis del estudiante. Es importante que en muy pocas palabras redacte el por qué es importante el experimento, lo que realizó, los resultados y comentarios pertinentes, como una justificación de las fallas cometidas en la experimentación. Se debe escribir en pasado perfecto.
+\end{abstract} 
+
+\maketitle
+
+
+%------------------------------------------------------------
+%	INTRODUCCIÓN
+%------------------------------------------------------------
+\input{./Sec1/Sec1.tex}
+
+
+%------------------------------------------------------------
+%	DESARROLLO
+%------------------------------------------------------------
+\input{./Sec2/Sec2.tex}
+
+
+%------------------------------------------------------------
+%	RESULTADOS
+%------------------------------------------------------------
+\input{./Sec3/Sec3.tex}
+
+
+%------------------------------------------------------------
+%	ANÁLISIS Y DISCUSIÓN
+%------------------------------------------------------------
+\input{./Sec4/Sec4.tex}
+
+
+%------------------------------------------------------------
+%	CONCLUSIONES
+%------------------------------------------------------------
+\input{./Sec5/Sec5.tex}
+
+
+%------------------------------------------------------------
+%	APÉNDICES
+%------------------------------------------------------------
+\appendix
+\input{./Ap1/Ap1.tex}
+
+
+%------------------------------------------------------------
+%	BIBLIOGRAFÍA
+%------------------------------------------------------------
+\bibliography{./Bibliography/bibliography.bib}
+
+
+\end{document}

@@ -1,0 +1,26 @@
+\section*{Resultados}
+\label{sec:Resultados}
+
+En la parte de resultados, al usar gráficas estas deben ser legibles. Eviten el uso de tablas. Y recuerden el uso de incertidumbres asociadas a mediciones y aparatos.
+
+Por ejemplo, en la Figura \ref{fig:Hg} se graficó el espectro de emisión del mercurio en lugar de mostrar una tabla que muestre la intensidad relativa en función de la longitud de onda. Por la naturaleza de esta gráfica no es necesario agregar barras de error.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\columnwidth]{\path hg.pdf}
+	\caption{Espectro de emisión del mercurio, los datos fueron extraídos de \cite{nistHg}.}
+	\label{fig:Hg}
+\end{figure}
+
+En la Figura \ref{fig:Capacitancia} se muestran datos en los que sí es necesario agregar barras de error. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\columnwidth]{\path capacitancia.pdf}
+	\caption{Capacitancia en función de la separación entre sus placas. Se muestra un ajuste de la forma $ C = \frac{A}{d} + B $, donde $ C $ es la capacitancia, $ d $ es la distancia entre placas y por otro lado $ A $ y $ B $ son constantes a determinar.}
+	\label{fig:Capacitancia}
+\end{figure}
+
+Aquí no se muestra el valor de las constantes $ A $ y $ B $ del ajuste porque solo se trata de un ejemplo, pero en un reporte usual sí deben de agregarse estos datos. Pero sí se muestra las unidades entre corchetes en los ejes. 
+
+Además es importante que las citas se hagan por orden de aparición, primero se citó \cite{wheeler1955}, después \cite{nistHg} y para obtener la forma del ajuste anterior se usó \cite{griffithsElectrodynamics}. O sea que están en orden. Esto se hace en automático con la forma gestionar la bibliografía de este \textit{template}.
