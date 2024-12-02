@@ -11,10 +11,10 @@ Es importante señalar que todas las imágenes deben estar en la carpeta 'Images
 
 En ese sentido también se agrega una notebook en python para graficar. En este ejemplo se abre un archivo separado con tabuladores con cuatro columnas, las primeras dos tienen mediciones físicas, mientras que las últimas dos son las incertidumbres asociadas respectivamente. Se hace uso de la biblioteca 'pandas' para leer este archivo y de 'matplotlib' para graficarlo.
 
--Con 'plt.errorbar' se grafican puntos sueltos con barras de error asociadas. 
--Con 'plt.plot' se grafica una línea continua.
--El comando 'plt.xlabel' cambia la etiqueta del eje 'x', análogo con el eje 'y'.
--Con 'plt.legend' se posiciona el cuadro de las legends en cierta posición y además se cambia el tamaño de fuente.
--Con 'plt.tick_params' se cambia el tamaño de la fuente de los ejes.
+- Con 'plt.errorbar' se grafican puntos sueltos con barras de error asociadas. 
+- Con 'plt.plot' se grafica una línea continua.
+- El comando 'plt.xlabel' cambia la etiqueta del eje 'x', análogo con el eje 'y'.
+- Con 'plt.legend' se posiciona el cuadro de las legends en cierta posición y además se cambia el tamaño de fuente.
+- Con 'plt.tick_params' se cambia el tamaño de la fuente de los ejes.
 
 En dado caso de necesitar hacer un ajuste con python mismo se puede revisar la documentación necesaria. Así mismo se puede modificar esta notebook para las necesidades de cada usuario y cada experimento.
