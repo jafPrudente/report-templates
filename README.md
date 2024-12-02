@@ -1,11 +1,11 @@
 # report-templates
 En este repositorio se encuentran templates de LaTeX para reportes de laboratorio. Así mismo se encuentra un graficador en una notebook de python.
 
-Para usar estos templates basta con clonar el repositorio y seleccionar la carpeta 'aps' o la 'std', dependiendo del resultado deseado. Dentro de las dos están los documentos y carpetas necesarias.
+Para usar estos templates basta con clonar el repositorio y quedarse con la carpeta 'aps' o la 'std', dependiendo del resultado deseado. Dentro de las dos están los documentos y carpetas necesarias.
 
 Se ha elegido separar cada sección en un documento separado que está en una carpeta correspondiente para que sea más fácil leer el código fuente y encontrar más rápido posibles errores. Estas secciones pueden ser fácilmente modificadas según las necesidades del usuario. 
 
-En la carpeta 'Bibliography' está justamente la bibliografía en un archivo '.bib', para llenarlo se necesita usar el formato BibTeX, para ello basta con buscar la fuente en google scholar, dar click en 'Citar' y después en 'BibTeX'. Esto abrirá una página donde copiaremos el texto en ella y lo pegaremos en la sección correspondiente de este archivo '.bib'. Para hacer una referencia a esta nueva fuente basta escribir '\cite{nombreDeLaReferencia}', dicho nombre es el primer texto después del corcete de apertura.
+En la carpeta 'Bibliography' está justamente la bibliografía en un archivo '.bib', para llenarlo se necesita usar el formato BibTeX, para ello basta con buscar la fuente en google scholar, dar click en 'Citar' y después en 'BibTeX'. Esto abrirá una página donde copiaremos el texto en ella y lo pegaremos en la sección correspondiente de este archivo '.bib'. Para hacer una referencia a esta nueva fuente basta escribir '\cite{nombreDeLaReferencia}', dicho nombre es el primer texto después del corcete de apertura. Si se desea gestionar manualmente la bibliografía se puede hacer eliminando la importación del archivo '.bib' y escribiendo manualmente las referencias.
 
 Es importante señalar que todas las imágenes deben estar en la carpeta 'Images'. Así mismo es recomendable usar imágenes en formato '.pdf' puesto que no se pixelean al reescalarlas.
 
